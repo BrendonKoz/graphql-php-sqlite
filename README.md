@@ -14,7 +14,9 @@ Instructions assume your are running MAMP (or alike) but MAMP is certainly not r
   errors: [
     {
       message: "GraphQL Request must include at least one of those two parameters: "query" or "queryId"",
-      category: "request"
+      extensions: {
+        category: "request"
+      }
     }
   ]
 } 
